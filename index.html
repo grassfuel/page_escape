@@ -4,13 +4,12 @@
         <title>タイトル未定</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="script/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="left_side">左 余白</div>
-        <div id="right_side">右　余白+サイドバー</div>
         <div id="main_content">
             <div id="top_side">上 ロゴ</div>
-            <div id="bottom_side">下 コピーライト</div>
             <div id="menu_list">
                 <div class="menu_head">項目1
                     <div class="menu_index">階層1-1
@@ -44,19 +43,31 @@
                 </div>
             </div>
             <div id="games">
-                <h1>メインコンテンツ</h1>
+                <h1>タイトル</h1>
+                <p>主観的な概要，中身の説明文というよりかは舞台設定の記述<br>
+                    ２～３行程度で書くこと</p>
                 <div id="game"></div>
                 <div id="add_1"></div>
                 <div id="add_2"></div>
                 <div id="add_3"></div>
             </div>
             <div id="instruction">
-                <h2>使い方</h2><br><br>
-                <p>ここに説明文</p>
+                <h3>概要</h3><br><br>
+                <p>俯瞰したときの概要，</p><br><br>
+                <h3>遊び方</h3><br><br>
+                <p>操作説明＋α</p>
             </div>
             <div id="form">
-                <form></form>
+                <h2>コメント</h2>
+                <p>応援，完走（感想）コメント募集中.</p>
+                <fieldset>
+                    <legend>コメント</legend>
+                    <p>名前<input type="text" name="name" size="40"></p>
+                    <p>ﾊﾟｽﾜｰﾄﾞ<input type="text" name="name" size="40"></p>
+                    <p>コメント<label>コメント:<br><textarea name="comments" rows="2" cols="40"></textarea></label></p>
+                </fieldset>
             </div>
+            <div id="bottom_side">下 &copy 2021 grassfuel </div>
         </div>
     </body>
-</html>
+    </html>

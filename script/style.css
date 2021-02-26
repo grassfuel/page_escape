@@ -1,8 +1,9 @@
 *{
-    position: absolute;
     margin: 0%;
+    font-family: 'Kosugi', sans-serif;
 }
 html,body{
+    min-width:1280px;
     width:100%;
     height:100%;
     background-color: #ddd;
@@ -17,18 +18,18 @@ h1{
 
 /*-- 余白 --*/
 #top_side{
-    position:absolute;
+    position:relative;
     width:100%;
-    height:5%;
+    height:50px;
     top:0%;
     left:0%;
     background-color:#f00;
 }
 #bottom_side{
-    position:absolute;
+    position:relative;
     width:100%;
-    height:15%;
-    top:85%;
+    height:3%;
+    top:0%;
     left:0%;
     background-color:#0f0;
 }
@@ -51,27 +52,25 @@ h1{
 
 /*-- メインコンテンツ --*/
 #main_content{
-    position:absolute;
-    float:left;
-    width:30vw;
-    height:100%;
-    top:0vw;
-    left:35vw;
+    position:relative;
+    margin:0 auto;
+    width:1280px;
+    height:1000px;
     background-color:#999;
 }
 #menu_list{
     position:relative;
     width:96%;
     height:3%;
-    top:5%;
+    top:0%;
     left:2%;
     background-color:#0ff;
 }
 #games{
     position:relative;
     width:96%;
-    height:33%;
-    top:5%;
+    height:720px;
+    top:0%;
     left:2%;
     background-color:#707;
 }
@@ -79,7 +78,7 @@ h1{
     position:relative;
     width:96%;
     height:12%;
-    top:5%;
+    top:0%;
     left:2%;
     background-color:#770;
 }
@@ -87,7 +86,7 @@ h1{
     position:relative;
     width:96%;
     height:32%;
-    top:5%;
+    top:0%;
     left:2%;
     background-color:#077;
 }
@@ -96,34 +95,36 @@ h1{
 /*-- games --*/
 #game{
     position:absolute;
-    width:40%;
-    height:45%;
-    top:28%;
-    left:28%;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    height:360px;
+    top:15%;
+    left:21%;
     background-color:#888;
 }
 #add_1{
     position:absolute;
-    width:9%;
-    height:63%;
-    top:19%;
-    left:8%;
+    width:160px;
+    height:600px;
+    top:12%;
+    left:5%;
     background-color:#888;
 }
 #add_2{
     position:absolute;
-    width:4vw;
-    height:4vw;
-    top:18%;
-    left:77%;
+    width:300px;
+    height:280px;
+    top:12%;
+    left:73%;
     background-color:#888;
 }
 #add_3{
     position:absolute;
-    width:4vw;
-    height:4vw;
+    width:300px;
+    height:280px;
     top:55%;
-    left:77%;
+    left:73%;
     background-color:#888;
 }
 
@@ -206,3 +207,8 @@ h1{
     opacity:1;
     display:inline;
 }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
